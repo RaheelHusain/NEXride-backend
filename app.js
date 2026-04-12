@@ -52,7 +52,7 @@ app.use(cookieparser());
 
 // CORS Setup: Is se aapka frontend backend se connect ho payega
 app.use(cors({
-    origin: '*', // '*' ka matlab hai ke abhi kisi bhi URL se request accept hogi (deployment ke liye best hai)
+    origin: 'https://nexride-backend-production-0d4e.up.railway.app', // '*' ka matlab hai ke abhi kisi bhi URL se request accept hogi (deployment ke liye best hai)
     credentials: true
 }));
 
