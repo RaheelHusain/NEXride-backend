@@ -119,7 +119,8 @@ const app = express();
 
 // SABSE PEHLE CORS
 app.use(cors({
-    origin: 'https://ne-xride-frontend.vercel.app',
+    // origin: 'https://ne-xride-frontend.vercel.app',
+    origin: "https://your-frontend.vercel.app",
     credentials: true
 }));
 
