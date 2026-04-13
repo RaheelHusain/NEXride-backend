@@ -66,8 +66,46 @@
 // app.use('/captain', captainRoutes);
 
 
+// ye tum ne su se phele wala code dia
 
 
+// require('dotenv').config();
+// const express = require('express');
+// const cors = require('cors');
+// const connectToDb = require('./db/database');
+// const userRoutes = require('./routes/user.routes');
+// const cookieparser = require('cookie-parser');
+// const captainRoutes = require("./routes/captain.routes");
+
+// const app = express();
+
+// // SABSE PEHLE CORS
+// app.use(cors({
+//     origin: 'https://ne-xride-frontend.vercel.app',
+//     credentials: true
+// }));
+
+// // Phir baaki middlewares
+// app.use(express.json());
+// app.use(express.urlencoded({ extended: true }));
+// app.use(cookieparser());
+
+// // Database connection
+// connectToDb();
+
+// // Basic Route
+// app.get('/', (req, res) => {
+//     res.send('Hello World - NEXride Backend is Live!');
+// });
+
+// // API Routes
+// app.use('/users', userRoutes);
+// app.use('/captain', captainRoutes);
+
+// module.exports = app;
+
+
+// ye tum ne bat me code  dia tha 
 
 require('dotenv').config();
 const express = require('express');
@@ -103,3 +141,6 @@ app.use('/users', userRoutes);
 app.use('/captain', captainRoutes);
 
 module.exports = app;
+
+
+
